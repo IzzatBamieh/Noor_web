@@ -1,0 +1,31 @@
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+//= require 'flexbox'
+
+$roboto-slab: 'Roboto';
+
+.static_pages {
+  display: flex;
+  flex-direction: column;
+  background-color: #fcf8e33d;
+}
+
+.col-md-8.col-md-offset-8.first {
+  font-family: $roboto-slab;
+  background-image: url("t_up.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.headline {
+  margin-left: 120px;
+  margin-top: 36px;
+}
+
+.second_text {
+  font-family: $roboto-slab;
+  text-align: left;
+  width: 60%;
+}
